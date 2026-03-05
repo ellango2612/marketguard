@@ -11,6 +11,10 @@
 
 **Real-time market surveillance and fraud detection backend** — processes 10,000+ transactions/sec via Kafka, detects spoofing and wash trading in under 200ms using a concurrent Goroutine worker pool, and exposes REST + gRPC APIs with sub-100ms response times via Redis caching.
 
+## 🎬 Demo
+
+[![MarketGuard Demo](https://img.shields.io/badge/Watch%20Demo-Loom-00D084?style=for-the-badge&logo=loom)](https://www.loom.com/share/f60bbf5c35ab4bde8229f8ab658e6787)
+
 ---
 
 ## Architecture
