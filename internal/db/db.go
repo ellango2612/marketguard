@@ -8,7 +8,7 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"go.uber.org/zap"
 
-	"github.com/yourusername/marketguard/internal/models"
+	"github.com/ellango2612/marketguard/internal/models"
 )
 
 // DB wraps a pgxpool connection pool with domain-specific query methods.

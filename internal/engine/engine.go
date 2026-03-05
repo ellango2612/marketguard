@@ -9,7 +9,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/yourusername/marketguard/internal/models"
+	"github.com/ellango2612/marketguard/internal/models"
 )
 
 const (

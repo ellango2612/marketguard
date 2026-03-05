@@ -14,12 +14,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.uber.org/zap"
 
-	"github.com/yourusername/marketguard/internal/auth"
-	"github.com/yourusername/marketguard/internal/cache"
-	"github.com/yourusername/marketguard/internal/db"
-	"github.com/yourusername/marketguard/internal/engine"
-	"github.com/yourusername/marketguard/internal/kafka"
-	"github.com/yourusername/marketguard/internal/models"
+	"github.com/ellango2612/marketguard/internal/auth"
+	"github.com/ellango2612/marketguard/internal/cache"
+	"github.com/ellango2612/marketguard/internal/db"
+	"github.com/ellango2612/marketguard/internal/engine"
+	"github.com/ellango2612/marketguard/internal/kafka"
+	"github.com/ellango2612/marketguard/internal/models"
 )
 
 func main() {

@@ -8,7 +8,7 @@ import (
 	"github.com/segmentio/kafka-go"
 	"go.uber.org/zap"
 
-	"github.com/yourusername/marketguard/internal/models"
+	"github.com/ellango2612/marketguard/internal/models"
 )
 
 const (
