@@ -1,0 +1,23 @@
+# Binaries
+/bin/
+*.exe
+*.out
+
+# Environment
+.env
+
+# Go
+vendor/
+*.test
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Docker volumes (local dev)
+postgres_data/
+redis_data/
+
+# Swagger generated
+docs/swagger/
