@@ -6,7 +6,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat-square&logo=postgresql)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker)
 ![AWS](https://img.shields.io/badge/AWS-EC2-FF9900?style=flat-square&logo=amazonaws)
-![CI](https://github.com/yourusername/marketguard/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/ellango2612/marketguard/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 **Real-time market surveillance and fraud detection backend** — processes 10,000+ transactions/sec via Kafka, detects spoofing and wash trading in under 200ms using a concurrent Goroutine worker pool, and exposes REST + gRPC APIs with sub-100ms response times via Redis caching.
@@ -83,7 +83,7 @@
 
 ```bash
 # 1. Clone
-git clone https://github.com/yourusername/marketguard.git
+git clone https://github.com/ellango2612/marketguard.git
 cd marketguard
 
 # 2. Configure
@@ -186,7 +186,7 @@ sudo service docker start
 sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
-git clone https://github.com/yourusername/marketguard.git
+git clone https://github.com/ellango2612/marketguard.git
 cd marketguard
 cp .env.example .env && nano .env   # set secrets
 docker-compose up -d
